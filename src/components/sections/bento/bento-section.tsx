@@ -26,6 +26,10 @@ const TECH_CATEGORIES = [
     ],
   },
   {
+    label: "Data Analytics & BI",
+    skills: ["Power BI", "Excel"],
+  },
+  {
     label: "Tools & DevOps",
     skills: ["GitHub", "Postman", "Docker"],
   },
