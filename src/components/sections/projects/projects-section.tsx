@@ -41,7 +41,8 @@ const EXPERIENCES = [
     tags: ["Excel", "Power Query", "Data Analytics", "Business Intelligence"],
     status: "Completed",
     github: null,
-    demo: null,
+    demo: demo: "/images/Dashboard.png"
+,
   },
   {
     id: "exp-3",
