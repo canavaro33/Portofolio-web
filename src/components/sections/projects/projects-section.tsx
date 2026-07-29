@@ -41,7 +41,7 @@ const EXPERIENCES = [
     tags: ["Excel", "Power Query", "Data Analytics", "Business Intelligence"],
     status: "Completed",
     github: null,
-    demo: demo: "/images/Dashboard.png"
+    demo: "/images/Dashboard.png"
 ,
   },
   {
@@ -55,7 +55,7 @@ const EXPERIENCES = [
     tags: ["Excel", "Pivot Tables", "Data Analytics"],
     status: "Completed",
     github: null,
-    demo: "/images/excel-sales-dashboard.png",
+    demo: "/images/Dashboard.png",
     projects: [
       {
         name: "Excel Sales Performance Dashboard",
