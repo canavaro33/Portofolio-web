@@ -27,7 +27,7 @@ const EXPERIENCES = [
       "Engineered the responsive frontend architecture for a comprehensive school Academic Information System using Next.js and Tailwind CSS. Built intuitive UI components for automated class scheduling, digital attendance, and student grade reports.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "REST API Integration"],
     status: "In Progress",
-    github: "https://github.com/valdibuana/Maleo_Project",
+    github: "https://github.com/valdibuana/Maleo-new_2",
     demo: "#",
   },
   {
