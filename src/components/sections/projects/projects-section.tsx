@@ -51,19 +51,19 @@ const EXPERIENCES = [
     headline: "Analytics & Reporting",
     description:
       "Designed and built data visualization dashboards translating complex datasets into clear business insights.",
-    tags: ["Power BI", "SQL", "Data Visualization"],
+    tags: ["Excel", "Pivot Tables", "Data Analytics"],
     status: "Completed",
     github: null,
-    demo: null,
+    demo: "/images/excel-sales-dashboard.png",
     projects: [
       {
-        name: "Sales Performance Dashboard",
-        tech: "Power BI",
+        name: "Excel Sales Performance Dashboard",
+        tech: "Data Modeling & KPI Tracking",
         Icon: BarChart2,
       },
       {
-        name: "Retail Sales Trend Analysis",
-        tech: "SQL-based analytics",
+        name: "Retail Sales & Regional Trend Analysis",
+        tech: "Pivot Table Analytics",
         Icon: Database,
       },
     ],
@@ -217,10 +217,10 @@ export function ProjectsSection() {
                       href={exp.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`View ${exp.title} live demo`}
+                      aria-label={`View ${exp.title}`}
                       className="flex items-center gap-2 text-xs font-mono tracking-wider text-off-white/50 hover:text-gold transition-colors duration-300 ml-auto"
                     >
-                      Live Demo
+                      {exp.demo.startsWith('/images/') ? 'View Dashboard' : 'Live Demo'}
                       <ExternalLink className="w-3.5 h-3.5" />
                     </a>
                   )}
